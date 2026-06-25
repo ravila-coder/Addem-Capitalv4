@@ -16,7 +16,7 @@ data loader is a serverless function at `/api/data` that reads your Google Sheet
 
 ## How updates work
 - The dashboard polls `/api/data` every ~60s and on tab focus.
-- Edit the Google Sheet (Model / Portfolio Tape / Sheet3) -> the dashboard refreshes
+- Edit the Google Sheet (Model / Portfolio Tape / Draws) -> the dashboard refreshes
   automatically within ~1 minute. No code changes or redeploys needed.
 - The Technical Sheet contractual data is embedded (from the DOCX); only outstanding/
   yield are linked live from the portfolio tab.
